@@ -1,0 +1,33 @@
+{
+  "name": "redissocketionodewheretoeat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/mocha tests",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/bin/_mocha -- tests/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.8",
+    "express": "^4.17.1",
+    "q": "^1.5.1",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "fakeredis": "^2.0.0",
+    "grunt": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^8.0.1",
+    "socket.io-client": "^2.3.0"
+  }
+}
